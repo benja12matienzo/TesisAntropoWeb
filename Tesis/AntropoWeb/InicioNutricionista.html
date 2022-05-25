@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Menu de seleccion-->
+    <header class="header" id="inicio">
+        <img src="Img/Iconos de cierre/menu.svg" alt="" class="menu">
+        <nav class="menu-navegacion">
+            <a href="#Turnos">Turnos</a>
+            <a href="#Generar turno">Generar turno</a>
+            <a href="#Pacientes">Pacientes</a>
+            <a href="#Nuevo estudio">Nuevo estudio</a>
+        </nav>
+    <!--Titulo-->
+        <div class="contenedor head">
+            <h1 class="Titulo">AntropoWeb</h1>
+            <p class="subtituloo">La App para el Nutricionista.</p>
+        </div>
+    </header>
+    <main>
+    <!--Opciones menu: Turnos -->
+        <section class="services contenedor" id="Turnos">
+            <h2 class="subtitulo">Turnos</h2>
+            <div class="contenedor-servicio">
+                <img src="Img\Imagenes menu\Turnos.svg" alt="">
+            </div>
+        </section>
+    <!--Opciones menu: Generar turno -->
+        <section class="services contenedor" id="Generar turno">
+            <h2 class="subtitulo">Generar turno</h2>
+            <div class="contenedor-servicio">
+                <img src="Img\Imagenes menu\Generar turno.svg" alt="">
+            </div>
+        </section>
+
+    <!--Opciones menu: Pacientes -->
+        <section class="services contenedor" id="Pacientes">
+            <h2 class="subtitulo">Pacientes</h2>
+            <div class="contenedor-servicio">
+                <img src="Img\Imagenes menu\Pacientes.svg" alt="">
+            </div>
+        </section>
+
+        <!--Opciones menu: Nuevo estudio -->
+        <section class="services contenedor" id="Nuevo estudio">
+            <h2 class="subtitulo">Nuevo estudio</h2>
+            <div class="contenedor-servicio">
+                <img src="Img\Imagenes menu\Nuevo estudio.svg" alt="">
+            </div>
+        </section>
+        
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h4 class="brand">MateoBenja</h4>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAnBJREFUSEt9lYF1GjEQRP92gCsIdEAHJh3EFdhUAK4gUIGhAtNB6CC4ApwKQgfBFWzenFZ3utOB3uNxp5O0szOzKzPASaN8jqnq7+6akY/WzFUfYuLWfAmoQtjfpLeAbhjeZlPONzmWMUeexzPWmaOjh2IBPGPMcebAFfgEO4F/AKdRcjOIiqIO3dThHVCAL4xPnJPBxFEgewz1jmBLcAWulCwo6qUipL9pWLOd4ZtkhIqbNfAWWT2lbMqRKerrMgH+Gnw5/Eh03BmJuoPBN4cZ2LWnWXd2+3QMWkSNDldA/S535JobnN044jwNjVXum2OccduCb4Ap2Nnwa0I3MrrTMl2iSiATqQORdxgrnIfgdQ32FmIuwQ6VlcuaSNzswRWsVa1cEiLZIg7KqLSmQ1Zp3aaRLbtIfqjrQDwryEtEnUrwyEZZFaOuWIedasbgIbsuUdTlcPHkd7knuzJncQCWt0M06zc4Pw2s7G/lnlOkthi0wAPGc9jx1RvxmyKUmPvWms27zcGnLUWDfqYUV2Azwy8ZRSBovhlc3bjiTIPmLY4cp6FqVtBMcfSiLkrmfAt5U6+zqjZ02GMwqGJs6sXgJVrL966iLWzaJ/YUomjjYLQdV/UxBVchCrWAnYE/UaTtvl43DaxiZg+0Xu6ijDpHfevdYFZk0xlnoIHc8wvsFfxfoLkY7D0hLW89tY9VAiIzurwvB/ZuxiKDJlSu5JqdVB+qk2vcDZlC3QkSdbRXDS8ccZqLTQfqXfyu41A9TwKpvh0xsmY3750xtF0jGaRc6THguKfuSKu4Hey2o8b3FO7uGsVQoZGt1RV7C1IE+A9n/vkgogM0QgAAAABJRU5ErkJggg=="/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhlJREFUSEuNlgtZG0EQx3+joBKgCkoVBAmgoKkCQAGJgoICqAJSB0hIHVwcgIJpZ5+zj2u570vusnu78/g/NoJdAmj4Cj9Xhsrc+JDWtreyz8c2nSRRA7XJ+QRsZv2K67bABrhIH6v4iHIUOCj8Si3ob2MFXUZXwA/g/D9JLKjcgR5iq0ucGGAoLg48ADcOjSlOXWBbc9fj51pUQoXNfeDa/mG0L+4RuG3e6rCztrz8oyUn2wA4lExhB9y79l4LatiMLRJYFM7aACWf9wTy0lA5BahZywL62b+Tn40tT7O+C2rY/QS2ruJLgY3CJWDPXkrXvsoM+7PAt6y3CbP3xGztqq2c6yMkk9uYKzgCX5ryW0z3aAog7FC5H5RfmK9HhK9WkhdaTH6NKMIelV0i+g71wLYsdnLwAURrRj3Rqkd5AqS3XkE2CadsbKU7voJF4KzQq1bT2MlEE2/Ap47av7Ot+MUR5NrHDH4jxpBpawlhSUeKCrLj71bQp3kzwg4V5FFczurDjt+B545FYcJEFIQ28aghwJyhnATO15R8pcJLT6XUlg8GkGgVKXp00zbd6qTtuBda5z8F4mB2PdNm3uYAL9M1QBBa0kFNIgHbZtVQ0Dmi1WV2YNVk89vDRGjCCZXbcOCMDJwcOKOSzFPM0F6NGSm/ZmxKimzXs/60Czzp131kPCsjuCst6s7V5g9N/ZtT7WHlBPk7/AdkOuYcTHQr+AAAAABJRU5ErkJggg=="/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAlFJREFUSEuNlj1uU1EQhb9paChwQ5PGpEdgbwCyg4QSCSlOiwQoK0jYQUBQJ0ZIlGEHSVaAYQOYmoqKctC8N+/+zLs2cWE933vf/Jwz51wL8SOAdl/gz4LaL3whvdE42r2WP9KFiO/lJc+z9YxvlkXUz6MW+oUy9oYj44Ojjvs4CYqivxnwBtgDHtRN51NexBq4Bt4Bq4ifNFBYgJx3bW5tw/AduElhj4CLEoK+g4zjTOHbZoiaQSOk87KTooOuXMt+eFsGBP4oHIDsgZ44cUtgkcoOKKwRpnFMHfUlyErQiXa8yKGgKxXmqCXh0pFYC7o7jHUBUbet4/GR76AWwMi875X9BmwQrON7wERgUnDWC8ClVHKgg06yiGQXdAd4ATztX+MG+Czwd+AsTGMrQYe8J3AyhSXa4fkReBlG8APoK+AryH4QmiSIwpimBN7fMcongRsVHtY2wA+BxwqnwEmwDU9QCa3sINX6FngPXAGPakV3hM+HBEHtidvoRYlkr2iAyFT6OgQ5A457iNgPegod5N3KC33ZhHMH4TnKE4fUSP4C3EW4akg+kxx04AkqZtagzyqf6UfGxHWJMEnOnuYRSY4/EhpMjY2Gz9i0rFx0M5CDYP6DaZpuTCNpcks3TVbRSDDiMRtiVeZSYFF3kPfNmn+GaXFtbbbAsFObXSjLfpqwzqNFNs5VS17jEchFCV11HxRBrRMTkF040zJS4/74BXINamO7Sk483G7/uVNGl3j5ZyA/bwe12f1tEpf2EISWXCVeOMVwZV9tT9TmEsqdf0BN8R/ciFETAAAAAElFTkSuQmCC"/>
+            </div>
+        </div>
+    </footer>
+    <script src="js/menuNutricionista.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
