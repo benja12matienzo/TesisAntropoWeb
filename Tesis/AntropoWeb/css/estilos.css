@@ -27,6 +27,7 @@ header{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    text-align: center;
 }
 
 .head{
@@ -38,6 +39,8 @@ header{
     flex-direction: column; 
     color:rgb(252, 252, 252);
     -webkit-text-stroke: 1px black;
+    text-align: center;
+
 }
 
 .menu{
@@ -102,4 +105,109 @@ header{
     width: 40%;
 }
 
+/*
+clase: para los tipos de nutricion
+.tipos-dieta{
+    display: flex; para que esten uno al lado del otro
+    justify-content: space-evenly; igualmente espaciados
+    align-items: center; para que queden centrados
+    flex-wrap: wrap;
+}
+.cont-tipos-dieta{
+    width: 30%
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cont-tipos-dieta img{
+    width: 80%;
+    display: block;
+    margin:0 auto;
+    font-weigth: 400;
+}
 
+*/
+footer{
+    background: #84fab0;
+    padding-bottom: 0.1px;
+    border: 1px solid #000;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    font-size: 30px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    margin-bottom: 60px;
+}
+
+/*adaptabilidad a celulares*/
+@media screen and (max-width:800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+    .Titulo{
+        font-size: 40px;
+    }
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    /*revisar el tamaño de footer para celular*/
+    .footer-content{
+        justify-content: space-evenly;
+        width: 80%;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+    .menu{
+        top: 20px;
+        right: 20px;
+    }
+
+    .Titulo{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    /*revisar el tamaño de footer para celular*/
+    .footer-content{
+        justify-content: space-evenly;
+        width: 80%;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+}
